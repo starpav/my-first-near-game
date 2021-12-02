@@ -21,8 +21,8 @@ Before we start, I ask you to complete the first steps yourself:
 - Calling change methods on smart contracts.
 
 ## Getting Started
-Так как мы создаем P2E game нам потребуется создать свой токен.
-Самый легкий способ для нас это сделать, это взять  за основу данный пример https://examples.near.org/FT
+Since we are creating a P2E game, we need to create our own token.
+The easiest way for us to do this is to take this example as a basis - https://examples.near.org/FT
 
 ## Pre-requisites
 To develop Rust contracts you would need to:
@@ -34,8 +34,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```bash
 rustup target add wasm32-unknown-unknown
 ```
+Download or clone this repository https://github.com/near-examples/FT
+Open `/FT/ft/src/lib.rs` and add new function (copy and past on 78 line):
 
-Clone or download this repository https://github.com/near-examples/FT
 ```
     #[payable]
     pub fn ft_mint(
@@ -77,3 +78,25 @@ Clone or download this repository https://github.com/near-examples/FT
         }
     }
 ```
+Save and run `./build.sh`
+After compiling you can deploy this contract:
+
+    near login
+    
+    near create-account firstapp.YOUR_ACCOUNT_NAME.testnet --masterAccount YOUR_ACCOUNT_NAME.testnet --initialBalance 10
+    
+    CONTRACT_NAME=firstapp.YOUR_ACCOUNT_NAME.testnet
+    
+    ID=YOUR_ACCOUNT_NAME.testnet
+    
+    near deploy --wasmFile res/fungible_token.wasm --accountId $CONTRACT_NAME
+    
+ Congratulation you done first stage!
+ Now we must initialization our smart contract before usage. 
+ You can read more about metadata at 'nomicon.io'. Modify the parameters and create a token: 
+ 
+    near call $CONTRACT_NAME new '{"owner_id": "'$ID'", "total_supply": "1000000000000000", "metadata": { "spec": "ft-1.0.0", "name": "Coin", "symbol": "CNM", "decimals": 8 }}' --accountId $ID
+    
+ Now every new account who want to use our smart contract must be registered (only once call `storage_deposit`):
+ 
+    near call $CONTRACT_NAME storage_deposit '{}' --accountId ACCOUNT_ID.testnet --amount 0.00125
