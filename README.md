@@ -6,14 +6,13 @@ Visual Studio Code - https://code.visualstudio.com/docs/setup/linux,
 Godot Engine - https://godotengine.org/download
 
 I'm not an experienced developer and if you haven't done blockchain game development before,
-then repeating the steps in this tutorial shouldn't be difficult.
+but know how to use Godot Engine, then repeating the steps in this tutorial shouldn't be difficult.
 I am currently studying blockchain game development and I think my experience will help
 newbies like me get their first application up and running on Near blockchain. 
 
 Before we start, I ask you to complete the first steps yourself:
 1. Creating a testnet Near account - https://docs.near.org/docs/develop/basics/create-account
 2. Installing the near-cli - https://docs.near.org/docs/tools/near-cli#setup
-3. Clone or download this repository - https://github.com/svntax/godot-near-sdk
 
 ## Features
 - User login/logout through the [NEAR web wallet](https://wallet.near.org/).
@@ -100,3 +99,39 @@ After compiling you can deploy this contract:
  Now every new account who want to use our smart contract must be registered (only once call `storage_deposit`):
  
     near call $CONTRACT_NAME storage_deposit '{}' --accountId ACCOUNT_ID.testnet --amount 0.00125
+    
+After that every new user can mint our token (we will need it in the future):
+
+    near call $CONTRACT_NAME ft_mint '{ "receiver_id": "$ID", "amount": "32" }' --accountId $ID --gas 300000000000000
+    
+and we can check balance:
+
+    near view $ID ft_balance_of '{"account_id": "'$ID'"}'
+    
+Ok, it is all with smart contract. 
+
+**##Let's go doing game!**
+
+Download this demo project https://godotengine.org/asset-library/asset/120
+Clone or download this repository - https://github.com/svntax/godot-near-sdk
+Download the C# Mono version of Godot 3.4. Copy the `addons/godot-near-sdk` directory into platformer project's `addons` directory.
+
+Add `Near.gd` and `CryptoProxy.gd` as singletons through Godot's AutoLoad, and make sure that your `.csproj` file has the following elements in `<PropertyGroup>` and `<ItemGroup>`:
+```xml
+<PropertyGroup>
+  <TargetFramework>net472</TargetFramework>
+  <LangVersion>latest</LangVersion>
+  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+</PropertyGroup>
+```
+```xml
+<ItemGroup>
+  <PackageReference Include="Rebex.Elliptic.Ed25519" Version="1.2.1" />
+  <PackageReference Include="SimpleBase" Version="2.1.0" />
+</ItemGroup>
+```
+
+Edit platformer project. Duplicate PauseMenu.tscn twice. Edit new scenes (StartMenu and GameOverMenu).
+StartMenu -> rename 
+
+
