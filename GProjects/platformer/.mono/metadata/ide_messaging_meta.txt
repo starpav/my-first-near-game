@@ -1,0 +1,2 @@
+﻿36237
+/home/pavel/Godot_v3.4-stable_mono_x11_64/Godot_v3.4-stable_mono_x11.64

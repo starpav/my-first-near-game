@@ -1,0 +1,15 @@
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/SuperPlatformer.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/SuperPlatformer.pdb
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/Rebex.Ed25519.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/SimpleBase.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/System.Buffers.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/System.Memory.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/System.Numerics.Vectors.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/ExportDebug/System.Runtime.CompilerServices.Unsafe.dll
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.csprojAssemblyReference.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.AssemblyInfoInputs.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.AssemblyInfo.cs
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.csproj.CoreCompileInputs.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.csproj.CopyComplete
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.dll
+/home/pavel/GProjects/platformer/.mono/temp/obj/ExportDebug/SuperPlatformer.pdb

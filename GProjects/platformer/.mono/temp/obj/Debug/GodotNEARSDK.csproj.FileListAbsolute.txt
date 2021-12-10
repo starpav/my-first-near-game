@@ -1,0 +1,15 @@
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/GodotNEARSDK.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/GodotNEARSDK.pdb
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/Rebex.Ed25519.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/SimpleBase.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/System.Buffers.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/System.Memory.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/System.Numerics.Vectors.dll
+/home/pavel/GProjects/platformer/.mono/temp/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.csprojAssemblyReference.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.AssemblyInfoInputs.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.AssemblyInfo.cs
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.csproj.CoreCompileInputs.cache
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.csproj.CopyComplete
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.dll
+/home/pavel/GProjects/platformer/.mono/temp/obj/Debug/GodotNEARSDK.pdb
