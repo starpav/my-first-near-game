@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/pavel/GProjects/start_tutor/SuperPlatformer.csproj": {}
+  },
+  "projects": {
+    "/home/pavel/GProjects/start_tutor/SuperPlatformer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/pavel/GProjects/start_tutor/SuperPlatformer.csproj",
+        "projectName": "SuperPlatformer",
+        "projectPath": "/home/pavel/GProjects/start_tutor/SuperPlatformer.csproj",
+        "packagesPath": "/home/pavel/.nuget/packages/",
+        "outputPath": "/home/pavel/GProjects/start_tutor/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pavel/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Rebex.Elliptic.Ed25519": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
+            "SimpleBase": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

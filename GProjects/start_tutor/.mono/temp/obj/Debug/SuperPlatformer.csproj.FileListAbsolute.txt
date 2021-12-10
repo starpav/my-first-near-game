@@ -1,0 +1,15 @@
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/SuperPlatformer.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/SuperPlatformer.pdb
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/Rebex.Ed25519.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/SimpleBase.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/System.Buffers.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/System.Memory.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/System.Numerics.Vectors.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/bin/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.csprojAssemblyReference.cache
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.AssemblyInfoInputs.cache
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.AssemblyInfo.cs
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.csproj.CoreCompileInputs.cache
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.csproj.CopyComplete
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.dll
+/home/pavel/GProjects/start_tutor/.mono/temp/obj/Debug/SuperPlatformer.pdb

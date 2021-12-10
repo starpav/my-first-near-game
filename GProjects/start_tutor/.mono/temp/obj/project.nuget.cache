@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "OjVaWmDZhXGU28yHaN7sSLcJBZvXBjwO5AkGqrC/GzlPNbEUMGhunSKhs9C7uSfHDrJrxVwzk+jm4U7xHJaR+A==",
+  "success": true,
+  "projectFilePath": "/home/pavel/GProjects/start_tutor/SuperPlatformer.csproj",
+  "expectedPackageFiles": [
+    "/home/pavel/.nuget/packages/rebex.elliptic.ed25519/1.2.1/rebex.elliptic.ed25519.1.2.1.nupkg.sha512",
+    "/home/pavel/.nuget/packages/simplebase/2.1.0/simplebase.2.1.0.nupkg.sha512",
+    "/home/pavel/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/home/pavel/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/home/pavel/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/home/pavel/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/home/pavel/.nuget/packages/system.runtime.numerics/4.3.0/system.runtime.numerics.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
